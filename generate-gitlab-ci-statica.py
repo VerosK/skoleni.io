@@ -93,6 +93,7 @@ for site in SITES_DEV:
                 "environment": {
                     "name": "test %s" % name,
                     "url": "https://%s" % statica_domain,
+                    "kubernetes": False,
                 },
             }
         }
